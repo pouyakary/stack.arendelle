@@ -1,0 +1,15 @@
+//
+// Copyright 2016 Pouya Kary <k@arendelle.org>
+//   A very simple stack system for Arendelle
+//
+
+// Init your stack in the "stack" space like this:
+( stack , !stack.init( stack size: 5 ) )
+
+// Then push some stuff to it:
+( stack , !stack.push( push to stack: @stack , info: 3 ) )
+( stack , !stack.push( @stack , 6 ) )
+( stack , !stack.push( @stack , 5 ) )
+
+// And then pop info like this ( and remember to have the full line for that):
+( pop item , !stack.pop( @stack ) ) ( stack[ 0 ] , $index )

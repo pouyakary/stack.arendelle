@@ -1,0 +1,4 @@
+< stack >
+{ @stack > 1 , 
+   ( $index , @stack - 1 ) ( return , @stack[ @stack - 1 ] )
+}

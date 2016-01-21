@@ -1,0 +1,4 @@
+< return , input >
+{ @return < @return? and @return > 0 ,
+   ( return[ @return ] , @input ) ( return , +1 )
+}
